@@ -30,10 +30,7 @@ Steps after installing a new Linux distro
 + Clone the source `git clone https://github.com/andreisergiu98/arc-flatabulous-theme && cd arc-flatabulous-theme`
 + Build `./autogen.sh --prefix=/usr` and install `sudo make install` the theme
 
-##7. Install paper icon theme
-+ On Ubuntu-based systems
-	* add ppa `sudo add-apt-repository ppa:snwh/pulp`
-	* update `sudo apt-get update`
-	* install icon pack `sudo apt-get install paper-icon-theme`
-+ On Arch-based systems simply search pacman for paper-icon-theme
+##7. Install surfn icons [(Surfn github page)](https://github.com/erikdubois/Surfn)
++ `sudo apt-get install git`
++ clone repository into icons folder.
 
