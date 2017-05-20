@@ -1,0 +1,4 @@
+# Custom date format
+
+# ex: May 12 (Fri) 1:06 AM
+<span font="11">%b %e  (%a) %l:%M %p</span>

@@ -1,0 +1,55 @@
+#
+# Development Keyboard shortcuts
+#
+
+#
+# File Management
+#
+{ "Ctrl+N": "New File" }
+{ "Ctrl+O": "Open File" }
+{ "Ctrl+P": "Goto Anything" }
+{ "Ctrl+W": "Close Tab" }
+
+#
+# Selection
+#
+{ "Ctrl+L": "Select Line" }
+{ "Ctrl+D": "Expand Selection to Word" }
+{ "Ctrl+Shift+A": "Expand Selection to Tag" }
+{ "Ctrl+Shift+Space": "Expand Selection Scope" }
+{ "Ctrl+Alt+L": "Reindent Selection" }
+{ "Ctrl+Shift+V": "Paste and Indent" }
+{ "Ctrl+/": "Line Comment" }
+{ "Ctrl+Shift+/": "Block Comment" }
+{ "Alt+Shift+W": "Wrap Selection With Tag" }
+
+#
+# Line Manipulation
+#
+{ "Ctrl+Shift+K": "Delete Line" }
+{ "Ctrl+Shift+D": "Duplicate Line" }
+{ "Ctrl+Shift+Enter": "Insert Line Above" }
+{ "Ctrl+Enter": "Insert Line Below" }
+{ "Alt+Up": "Move Line Up" }
+{ "Alt+Down": "Move Line Down" }
+{ "Ctrl+J": "Join Lines" }
+
+#
+# Cursors
+#
+{ "Ctrl+Shift+L": "Add Cursors To Selected Lines" }
+{ "Ctrl+Click": "Add Cursor" }
+{ "Ctrl+Shift+Up": "Add Cursor Above" }
+{ "Ctrl+Shift+Down": "Add Cursor Below" }
+
+#
+# Miscellaneous
+#
+{ "F11": "Fullscreen" }
+{ "Ctrl+M": "Toggle Menubar" }
+{ "Ctrl+F": "Find" }
+{ "Ctrl+H": "Replace" }
+{ "Alt+Shift+1": "No Split" }
+{ "Alt+Shift+2": "Split Vertically" }
+{ "Ctrl+R": "Goto Function" }
+{ "Ctrl+B": "Goto Definition" }
