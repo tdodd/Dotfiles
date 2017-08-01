@@ -11,7 +11,7 @@ sudo apt-get update
 sudo apt-get upgrade -y
 
 # Install basic dev necessities
-sudo apt-get install -y git zsh terminator curl wget build-essential
+sudo apt-get install -y git zsh curl wget build-essential
 
 #
 # Mean Stack
@@ -39,11 +39,11 @@ sudo apt-get update
 sudo apt-get install -y apache2
 sudo ufw allow in "Apache Full"
 
-# Install MySql
-sudo apt-get install -y mysql-server
+# Install postgres
+sudo apt-get install -y postgresql postgresql-contrib
 
 # Install PHP
-sudo apt-get install -y php libapache2-mod-php php-mcrypt php-mysql php-mbstring
+sudo apt-get install -y php libapache2-mod-php php-mcrypt php-mbstring
 
 # Install Composer
 sudo apt-get update
@@ -57,10 +57,6 @@ sudo php composer-setup.php --install-dir=/usr/local/bin --filename=composer
 # Other
 #
 
-# Install elasticsearch
-sudo apt-get update
-wget https://download.elastic.co/elasticsearch/release/org/elasticsearch/distribution/deb/elasticsearch/2.3.1/elasticsearch-2.3.1.deb
-sudo dpkg -i elasticsearch-2.3.1.deb
 
 # Change shell to ZSH and download ohmyzsh
 chsh -s $(which zsh)
