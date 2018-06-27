@@ -12,3 +12,8 @@
 + TSLint
 + auto-close tag
 + vscode-icons
+
+# Useful settings
+"workbench.editor.enablePreview": false,
+"files.autoSave": "onFocusChange",
+"editor.minimap.enabled": false,
